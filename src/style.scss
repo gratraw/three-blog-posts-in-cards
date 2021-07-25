@@ -1,0 +1,23 @@
+@import 'vanilla-framework/scss/vanilla';
+@include vanilla;
+
+$color-accent: #a87ca0;
+$horizontal-line-style: dashed;
+.p-card--highlighted{
+    border-top-color: $color-accent;
+    border-top-style: solid;
+}
+.dotted_line{
+    background: none;
+    border-top: 2px rgba(0, 0, 0, 0.15) dotted;
+}
+.row{
+    margin-top:50px;
+}
+.trunk{
+    display: block;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    height: 4.5rem;
+}
