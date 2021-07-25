@@ -13,4 +13,4 @@ Project is created with:
 * HTML
 
 ## Run
-To run this project please run index.html in your browse
+To run this project please run index.html in your browser
